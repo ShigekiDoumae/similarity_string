@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "similarity_string"
   gem.version       = SimilarityString::VERSION
   gem.authors       = ["Shigeki Doumae"]
-  gem.email         = ["shigeki.doumae@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["shigeki.doumae+similarity_string@gmail.com"]
+  gem.description   = %q{similarity of string}
+  gem.summary       = %q{similarity of string}
+  gem.homepage      = "https://github.com/ShigekiDoumae"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
